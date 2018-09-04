@@ -1,0 +1,148 @@
+.App {
+  text-align: center;
+}
+
+.main {
+  position: relative;
+  text-align: center;
+  color: white;
+  background-image: url("../src/media/darkdesk.jpg");
+  z-index: -1;
+}
+
+/* .main-content {
+  padding-top: 300px;
+  padding-bottom: 200px;
+} */
+
+/* .desk {
+  min-width: 100vw;
+  z-index: -1;
+  position: relative;
+  
+} */
+
+.main-content-box .welcome {
+  position: absolute;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  /* top: 20%;
+  left: 50%; */
+  text-align: center;
+  transform: translate( -50%, -50% );
+}
+/* 
+.main-content-box .nice-to-meet-you {
+  position: absolute;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  top: 35%;
+  left: 50%; 
+  text-align: center;
+  transform: translate( -50%, -50% );
+  font-size: 25px;
+
+} */
+
+.main-content-box .tell-me-more {
+  position: absolute;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  /* top: 55%; */
+  left: 50%; 
+  text-align: center;
+  transform: translate( -50%, -50% );
+}
+
+.tell-me-more-button {
+  background: #FECA30;
+  color: white;
+  border-radius: 5px;
+  width: 224.09px;
+  height: 69px;
+  font-size: 18px;
+  border-style: none;
+}
+
+@media (max-width: 769px) {
+  .welcome {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    text-align: center;
+    transform: translate( -50%, -50% );
+    font-size: 30px;
+  }
+  
+  .nice-to-meet-you {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    text-align: center;
+    transform: translate( -50%, -50% );
+    font-size: 35px;
+  }
+
+  .tell-me-more-button {
+    position: absolute;
+    bottom: 95%;
+    left: 50%;
+    text-align: center;
+    transform: translate( -50%, -50% );
+  }
+}
+
+@media (min-width: 769px) {
+
+  .main-content {
+    padding-top: 300px;
+    padding-bottom: 200px;
+  }
+  .main-content-box .welcome {
+    position: absolute;
+    padding-top: 0px;
+    padding-bottom: 100px;
+    /* top: 20%; */
+    left: 50%; 
+    text-align: center;
+    transform: translate( -50%, -50% );
+  }
+
+  .main-content-box .nice-to-meet-you {
+    position: absolute;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    top: 35%;
+    left: 50%; 
+    text-align: center;
+    transform: translate( -50%, -50% );
+    font-size: 25px;
+
+  }
+
+  /* .welcome {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    text-align: center;
+    transform: translate( -50%, -50% );
+    font-size: 30px;
+  } */
+  
+  .nice-to-meet-you {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    text-align: center;
+    transform: translate( -50%, -50% );
+    font-size: 35px;
+  }
+
+  .tell-me-more-button {
+    position: absolute;
+    bottom: 95%;
+    left: 50%;
+    text-align: center;
+    transform: translate( -50%, -50% );
+  }
+}
